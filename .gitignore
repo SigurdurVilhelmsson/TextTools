@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Output files
+output/
+*.md
+!README.md
+!examples/README.md
+
+# Images extracted from documents
+images/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test files
+test/fixtures/*.md
+test/output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Word temporary files
+~$*.docx
+~$*.doc
+
+# Config files (user-specific)
+.doc2mdrc.json
+.doc2mdrc.yaml
+.doc2mdrc.yml
+doc2md.config.json
+doc2md.config.yaml
+doc2md.config.yml
+
+# Keep example configs
+!examples/.doc2mdrc.json
+!examples/.doc2mdrc.yaml

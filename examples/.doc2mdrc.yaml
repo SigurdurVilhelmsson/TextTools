@@ -1,0 +1,9 @@
+outputDir: ./output
+extractImages: true
+frontmatter:
+  chapter: 1
+  section: "1.1"
+  objectives:
+    - Greina á milli eðlislegra og efnafræðilegra eiginleika
+    - Útskýra muninn á eðlisbreytingum og efnahvörfum
+    - Beita þekkingu á efnafræðilegum hugtökum
